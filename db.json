@@ -1,14 +1,23 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "patientInfo": [
+        {
+            "gender": "F",
+            "firstName": "Dummy",
+            "middleName": "NULL",
+            "lastName": "TestPatienttodayjune",
+            "accessionNumber": "25042025-001",
+            "collectionDate": "2025-04-25 14:12:24.643",
+            "orderDate": "2025-04-25 13:59:03",
+            "age": 5,
+            "patientId": "APH203023"
+        }
+    ],
+    "testResults": {},
+    "contactNumber": [
+        {
+            "name": "Dummy NULL TestPatienttodayjune",
+            "address": "Kathmandu Metropolitan-3",
+            "contactNumber": null
+        }
+    ]
 }
